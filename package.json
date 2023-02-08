@@ -1,0 +1,36 @@
+{
+  "name": "arquitetura-2-exercicios",
+  "version": "1.0.0",
+  "description": "Utilize a query a seguir e configure uma API com o endpoint GET da entidade.\r Lembre-se de aplicar o paradigma POO e a arquitetura em camadas (controller, business e database).\r Implemente também roteamento e erros customizados.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "ts-node-dev ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nana-shi/arquitetura-2-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nana-shi/arquitetura-2-exercicios/issues"
+  },
+  "homepage": "https://github.com/Nana-shi/arquitetura-2-exercicios#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^18.13.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.4"
+  }
+}
